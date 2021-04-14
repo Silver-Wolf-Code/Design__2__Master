@@ -1,0 +1,7 @@
+.main__cards {
+  grid-template-columns: repeat(1, minmax(100px, 280px));
+  justify-content: center;
+}
+.title__banner{
+  padding: 0 10px;
+}

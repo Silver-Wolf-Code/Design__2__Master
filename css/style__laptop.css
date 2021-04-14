@@ -1,0 +1,7 @@
+.main__cards {
+  grid-template-columns: repeat(4, minmax(100px, 207px));
+}
+
+.footer__fig--mod-one {
+  width: 80%;
+}

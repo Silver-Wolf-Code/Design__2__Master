@@ -1,0 +1,317 @@
+.hero {
+  padding: 0 50px;
+}
+
+.main {
+  padding: 0 50px;
+}
+
+.footer {
+  padding: 30px 50px;
+}
+
+.main__cards {
+  grid-template-columns: repeat(3, minmax(100px, 207px));
+}
+
+.fa-cog {
+  font-size: 2.5rem;
+}
+
+.hero__span {
+  font-size: 3rem;
+}
+
+.hero__link {
+  font-size: 2rem;
+}
+
+.title__banner {
+  font-size: 3.5rem;
+}
+
+@keyframes banner__title {
+  0% {
+    transform: translateX(-600%) scale(4, 4);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translateX(600%) scale(4, 4);
+    opacity: 0;
+  }
+
+  75% {
+    transform: translateX(-600%) scale(4, 4);
+    opacity: 1;
+    color: transparent;
+    text-shadow: none;
+  }
+
+  100% {
+    transform: translateX(0) scale(1, 1);
+  }
+}
+
+.ico {
+  font-size: 4rem;
+}
+
+.card:hover .ico {
+  color: #37BCF9;
+  font-size: 5.5rem;
+  animation: top .3s linear;
+  transition: all .3s;
+}
+
+.card___title {
+  font-size: 1.8rem;
+}
+
+.card__copy {
+  font-size: 1.5rem;
+}
+
+.art__title {
+  font-size: 2.5rem;
+}
+
+.art__span {
+  font-size: 1.2rem;
+}
+
+.art__sub-title {
+  font-size: 1.7rem;
+}
+
+.art__copy {
+  font-size: 1.4rem;
+}
+
+.art__link-two {
+  font-size: 3.5rem;
+}
+
+.aside__title {
+  font-size: 1.8rem;
+}
+
+.aside__btn {
+  font-size: 1.4rem;
+}
+
+.aside__link {
+  font-size: 1.3rem;
+}
+
+#ico__redes::after {
+  font-size: 1.4rem;
+}
+
+.footer__title {
+  font-size: 2.5rem;
+}
+
+.footer__item {
+  width: 70%;
+}
+
+.footer__link {
+  font-size: 1.5rem;
+}
+
+.footer__link__autor {
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 750px) {
+
+  .fa-cog {
+    font-size: 2rem;
+  }
+
+  .hero__logo {
+    width: 120px;
+    height: 40px;
+  }
+
+  .hero__span {
+    font-size: 2.5rem;
+  }
+
+  .hero__link {
+    font-size: 1.7rem;
+  }
+
+  .hero__content {
+    height: 90px;
+  }
+
+  .bg__banner {
+    background-position: -50px -100px;
+  }
+
+  .title__banner {
+    font-size: 3.0rem;
+  }
+
+  .main__cards {
+    grid-template-columns: repeat(2, minmax(100px, 280px));
+  }
+
+  @keyframes banner__title {
+    0% {
+      transform: translateX(-600%) scale(3, 3);
+      opacity: 1;
+    }
+
+    50% {
+      transform: translateX(600%) scale(3, 3);
+      opacity: 0;
+    }
+
+    75% {
+      transform: translateX(-600%) scale(3, 3);
+      opacity: 1;
+      color: transparent;
+      text-shadow: none;
+    }
+
+    100% {
+      transform: translateX(0) scale(1, 1);
+    }
+  }
+
+  .ico {
+    font-size: 3.5rem;
+  }
+
+  .card:hover .ico {
+    font-size: 4.5rem;
+  }
+
+  .card___title {
+    font-size: 1.6rem;
+  }
+
+  .card__copy {
+    font-size: 1.3rem;
+  }
+
+  .main__content {
+    grid-template-columns: minmax(420px, 800px);
+  }
+
+  .art__title {
+    font-size: 2rem;
+    height: 50px;
+  }
+
+  .art__span {
+    font-size: 1.1rem;
+  }
+
+  .art__sub-title {
+    font-size: 1.6rem;
+  }
+
+  .art__copy {
+    font-size: 1.3rem;
+  }
+
+  .art__link-two {
+    height: 90px;
+    font-size: 3rem;
+  }
+
+  .aside__title {
+    font-size: 1.7rem;
+    height: 40px;
+    width: 280px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .aside__btn {
+    height: 30px;
+    width: 80px;
+    font-size: 1.3rem;
+  }
+
+  .aside__link {
+    font-size: 1.2rem;
+  }
+
+  #ico__redes {
+    font-size: 2.5rem;
+  }
+
+  #ico__redes::after {
+    font-size: 1.3rem;
+  }
+
+  .footer {
+    justify-content: center;
+    grid-template-columns: repeat(1, minmax(100px, 320px));
+  }
+
+  .footer__title {
+    font-size: 2rem;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .footer__item {
+    margin-bottom: 5px;
+  }
+
+  iframe {
+    height: 250px;
+  }
+
+  .footer__link {
+    font-size: 1.3rem;
+  }
+
+  .footer__link__autor {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width:628px) {
+  .title__banner {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .title__banner {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .main__content {
+    grid-template-columns: minmax(300px, 800px);
+  }
+
+  .hero {
+    justify-content: space-around;
+    padding: 0 20px;
+    flex-direction: column;
+    height: 100px;
+  }
+
+  .hero__logo {
+    width: 150px;
+  }
+
+  .main {
+    padding: 0 20px;
+  }
+
+  .footer {
+    padding: 30px 20px;
+  }
+}
